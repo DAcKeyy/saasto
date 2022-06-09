@@ -2,58 +2,373 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="scss/index.css">
+    <title>Home</title>
 </head>
 <body>
-    <header class="home-header">
-        <div class="headline">
-            <nav class="main-nav headline__left" aria-label="Main">
+    <header class="home-header container">
+        <nav class="main-nav">
+            <section class="main-nav__left" aria-label="Main">
                 <a href="/" class="logo">
                     <img class="image logo__picture" src="assets/images/saasto_logo.svg" alt="SaaSto logo">
                 </a>
+            </section>
+            <section class="main-nav__middle">
                 <ul class="main-nav__list">
-                    <li class="main-nav__item"><a class="main-nav__link" href="/">Home</a></li>
-                    <li class="main-nav__item"><a class="main-nav__link" href="#">About</a></li>
-                    <li class="main-nav__item"><a class="main-nav__link" href="#">Services</a></li>
-                    <li class="main-nav__item"><a class="main-nav__link" href="#">Pages</a></li>
-                    <li class="main-nav__item"><a class="main-nav__link" href="#">Contact</a></li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="/">Demos</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#">Features</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#">Pricing</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-            <nav class="main-nav headline__right" aria-label="Offering">
+            </section>
+            <section class="main-nav__right" aria-label="Offering">
                 <ul class="main-nav__list">
-                    <li class="main-nav__item"><a href="#" class="main-nav__link">Cart (0)</a></li>
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">Login</a>
+                    </li>
                     <li class="main-nav__item">
                         <button class="button button_blue" type="button">
-                            <a href="#">Get a free quote</a>
+                            <a href="#">Sign up</a>
                         </button>
                     </li>
                 </ul>
-            </nav>
-        </div>
+            </section>
+        </nav>
     </header>
-    <section class="home">
-
+    <section class="home container">
+        <div class="content">
+            <article class="content__article">
+                <h1>A collaborative  Time Tracking that you Need</h1>
+                <p>An enim nullam tempor sapien gravida donec enim ipsum
+                    porta justo  congue magna at pretium purus pretium ligula</p>
+            </article>
+            <button class="button button_blue" type="button">
+                <a href="#">Start 14 Days Trial</a>
+            </button>
+        </div>
     </section>
-    <section class="block">
-
+    <section class="fan-facts container">
+        <div class="fan-facts__numbers">
+            <div class="fan-facts__numbers_stats" id="active-users">
+                <p>15k+</p>
+                <small>Active user</small>
+            </div>
+            <div class="fan-facts__numbers_stats" id="total-downloads">
+                <p>30k</p>
+                <small>Total Download</small>
+            </div>
+            <div class="fan-facts__numbers_stats" id="customer">
+                <p>10k</p>
+                <small>Customer</small>
+            </div>
+        </div>
+        <section class="fan-facts__features">
+            <article class="article">
+                <h1>Some excellent features for you</h1>
+                <p>An enim nullam tempor sapien gravida donec enim
+                    ipsum porta justo  congue magna at pretium purus pretium ligula </p>
+            </article>
+            <div class="cards">
+                <ul class="cards-list">
+                    <li class="cards-list__item">
+                        <div class="card">
+                            <section class="section-image">
+                                <img class="image card-image" src="assets/images/.." alt="Card image">
+                            </section>
+                            <article class="article">
+                                <h2>Preset List of Task</h2>
+                                <p>Make bill payments easily using the wallet app</p>
+                            </article>
+                        </div>
+                    </li>
+                    <li class="cards-list__item">
+                        <div class="card">
+                            <section class="section-image">
+                                <img class="image card-image" src="assets/images/.." alt="Card image">
+                            </section>
+                            <article class="article">
+                                <h2>Reminder of Task</h2>
+                                <p>Make bill payments easily using the wallet app</p>
+                            </article>
+                        </div>
+                    </li>
+                    <li class="cards-list__item">
+                        <div class="card">
+                            <section class="section-image">
+                                <img class="image card-image" src="assets/images/.." alt="Card image">
+                            </section>
+                            <article class="article">
+                                <h2>Complecation Report</h2>
+                                <p>Make bill payments easily using the wallet app</p>
+                            </article>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </section>
-    <section class="block">
-
+    <section class="analytics container">
+        <section class="analytics__image">
+            <img class="image analytics-image" src="assets/images/.." alt="Analytics image">
+        </section>
+        <section class="analytics__info">
+            <article class="article">
+                <h1>Analytics & Reporting Brackdown</h1>
+                <p>An enim nullam tempor sapien gravida donec enim
+                    ipsum porta justo  congue magna at pretium purus pretium ligula </p>
+            </article>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="tenet">
+                        <section class="image-section">
+                            <img class="image tenet-image" src="assets/images/.." alt="Tenet image">
+                        </section>
+                        <section class="info">
+                            <h2>Automatic event tracking</h2>
+                            <p>Time Tracking is never been easier.
+                                Just let the stopwatch run</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="tenet">
+                        <section class="image-section">
+                            <img class="image tenet-image" src="assets/images/.." alt="Tenet image">
+                        </section>
+                        <section class="info">
+                            <h2>Customizable dashboard</h2>
+                            <p>Time Tracking is never been easier.
+                                Just let the stopwatch run</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="tenet">
+                        <section class="image-section">
+                            <img class="image tenet-image" src="assets/images/.." alt="Tenet image">
+                        </section>
+                        <section class="info">
+                            <h2>Statistics retroactively</h2>
+                            <p>Time Tracking is never been easier.
+                                Just let the stopwatch run</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
-    <section class="block">
-
+    <section class="tracker-work container">
+        <section class="tracker-work__info">
+            <article class="article">
+                <h1>How our Tracker work for you</h1>
+                <p>An enim nullam tempor sapien gravida donec enim
+                    ipsum porta justo  congue magna at pretium purus pretium ligula </p>
+            </article>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="tenet">
+                        <section class="image-section">
+                            <img class="image tenet-image" src="assets/images/.." alt="Tenet image">
+                        </section>
+                        <section class="info">
+                            <h2>Time Tracking</h2>
+                            <p>Time Tracking is never been easier.
+                                Just let the stopwatch run</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="tenet">
+                        <section class="image-section">
+                            <img class="image tenet-image" src="assets/images/.." alt="Tenet image">
+                        </section>
+                        <section class="info">
+                            <h2>Expenses</h2>
+                            <p>Time Tracking is never been easier.
+                                Just let the stopwatch run</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="tenet">
+                        <section class="image-section">
+                            <img class="image tenet-image" src="assets/images/.." alt="Tenet image">
+                        </section>
+                        <section class="info">
+                            <h2>Budget controlling</h2>
+                            <p>Time Tracking is never been easier.
+                                Just let the stopwatch run</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tracker-work__image">
+            <img class="image tracker-work-image" src="assets/images/.." alt="Tracker-work image">
+        </section>
     </section>
-    <section class="block">
-
+    <section class="pricing container">
+        <article class="pricing__article">
+            <h1>Flexible work, Simple Price</h1>
+            <p>Growth your business with using us</p>
+        </article>
+        <div class="toggle">
+            <!-- Я хуй знает как делать переключатель -->
+        </div>
+        <div class="grid">
+            <div class="grid__item">
+                <div class="card">
+                    <article class="card__article">
+                        <h2>Free</h2>
+                        <ul class="list">
+                            <li class="list__item">
+                                <p>1 seat</p>
+                            </li>
+                            <li class="list__item">
+                                <p>2 project</p>
+                            </li>
+                        </ul>
+                    </article>
+                    <div class="price">
+                        <div class="price__amount">
+                            <p class="price__amount_currency">$</p>
+                            <p class="price__amount_value">0</p>
+                            <span class="price__amount_time">/</span>
+                            <span class="price__amount_time">forever</span>
+                        </div>
+                    </div>
+                    <button class="button">
+                        <a href="#">Start 14 Days Trial</a>
+                    </button>
+                </div>
+            </div>
+            <div class="grid__item">
+                <div class="card">
+                    <article class="card__article">
+                        <h2>Premium</h2>
+                        <ul class="list">
+                            <li class="list__item">
+                                <p>Unlimited Seat</p>
+                            </li>
+                            <li class="list__item">
+                                <p>Unlimited project</p>
+                            </li>
+                        </ul>
+                    </article>
+                    <div class="price">
+                        <div class="price__amount">
+                            <p class="price__amount_currency">$</p>
+                            <p class="price__amount_value">30</p>
+                            <span class="price__amount_time">/</span>
+                            <span class="price__amount_time">forever</span>
+                        </div>
+                    </div>
+                    <button class="button">
+                        <a href="#">Start 14 Days Trial</a>
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="block">
-
+    <section class="trusted-partners container">
+        <section class="trusted-partners__image">
+            <img class="image trusted-partners-image" src="assets/images/.." alt="Trusted-partners image">
+        </section>
+        <section class="trusted-partners__info">
+            <article class="article">
+                <h1>See Our trusted partners</h1>
+                <p>Vero homero perfecto mei ut, sonet aperiam an nec.
+                    Ni nec dict altera legimu.
+                    Me vita de lege ndos expet end is ad. Ex mei omita aliu mi ando</p>
+            </article>
+            <button class="button">
+                <a href="#">Get Started</a>
+            </button>
+        </section>
     </section>
-    <section class="block">
-
+    <section class="client-says container">
+        <article class="article">
+            <h1>What our client says</h1>
+            <p>Growth your business with using us</p>
+        </article>
+        <div class="carousel">
+            <!-- Я не ебу как сделать эту каруслеь с макета -->
+        </div>
     </section>
-    <footer class="home-footer">
-
+    <section class="get-it-now container">
+        <section class="get-it-now__info">
+            <article class="article">
+                <h1>Get it now for free</h1>
+                <p>We are offering free debit cards once you sing up and order a card.
+                    we wont chargeyou for our debit card.</p>
+            </article>
+            <div class="get-it-now__info_download-buttons">
+                <button class="button">
+                    <a href="#">Download ont the App Store</a>
+                </button>
+                <button class="button">
+                    <a href="#">Get it on Google Play</a>
+                </button>
+            </div>
+        </section>
+        <section class="get-it-now__image">
+            <img class="image get-it-now-image" src="assets/images/.." alt="Get-it-now image">
+        </section>
+    </section>
+    <footer class="home-footer container">
+        <section class="home-footer__footer-up">
+            <section class="home-footer__left">
+                <a href="/" class="logo">
+                    <img class="image logo__picture" src="assets/images/saasto_logo.svg" alt="SaaSto logo">
+                </a>
+            </section>
+            <nav class="home-footer__middle" aria-label="home-footer">
+                <ol class="list">
+                    <li class="list__item">
+                        <a href="#">Demos</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#">Features</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ol>
+            </nav>
+            <section class="home-footer__right">
+                <ol class="list social-media">
+                    <li class="list__item">
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#">LinkedIn</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#">Twitter</a>
+                    </li>
+                </ol>
+            </section>
+        </section>
+        <hr>
+        <section>
+            <a href="#">Terms & condition</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">All Right Reserved @ plowv.com</a>
+        </section>
     </footer>
 </body>
 </html>
