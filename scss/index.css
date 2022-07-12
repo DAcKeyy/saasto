@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/RobotoRegular/RobotoRegular.ttf");
-}
 *, *:after, *:before {
   box-sizing: border-box;
   padding: 0;
@@ -29,15 +25,19 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
   clear: both;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  position: relative;
+}
+
 .container {
-  margin: 0 auto;
   width: 100%;
-  max-width: 960px;
 }
 
 .home-header {
+  background-color: #FFF8F2;
   width: 100%;
-  padding: 15px 0;
   margin-bottom: 30px;
   position: relative;
 }
@@ -47,7 +47,10 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
   vertical-align: middle;
 }
 .home-header .main-nav {
-  margin: auto;
+  padding: 15px 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,13 +86,66 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
   padding: 20px;
   text-decoration: none;
 }
+.home-header .home-addition {
+  background: url("/assets/images/Alarm_Clock.png") no-repeat 275px 100px, url("/assets/images/Clipboard_Verified.png") no-repeat 68% 80%, url("/assets/images/Mobile_Screen1.png") no-repeat 0px 250px, url("/assets/images/Mobile_Screen2.png") no-repeat 115% -120%, url("/assets/images/Shape1.png") no-repeat 34% 48%, url("/assets/images/Shape2.png") no-repeat 175px 70px, url("/assets/images/Shape3.png") no-repeat 78% 17%, url("/assets/images/Shape4.png") no-repeat 100% 0%, url("/assets/images/Shape5.png") no-repeat 35% 90%, url("/assets/images/Shape6.png") no-repeat 64% 95%;
+}
+.home-header .home-addition .content {
+  margin: 0 auto;
+  padding: 220px 0 220px 0;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+.home-header .home-addition .content .content__article {
+  margin-bottom: 68px;
+}
+.home-header .home-addition .content .content__article h1 {
+  font-size: 64px;
+  margin-bottom: 24px;
+  font-weight: 750;
+  letter-spacing: 0px;
+  line-height: 90px;
+  color: #1C0E0D;
+}
+.home-header .home-addition .content .content__article p {
+  font-size: 20px;
+  color: #40201E;
+}
+
+.fan-facts .fan-facts__numbers {
+  background: url("/assets/images/WhiteWaveStrip.svg") no-repeat -200px -200px;
+}
+
+.tracker-work {
+  background-color: #F8FEFE;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.trusted-partners {
+  background-color: #F8FEFE;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.get-it-now {
+  background-color: #FFF8F2;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  position: relative;
+}
 
 .button {
   font-weight: 600;
   min-width: 100px;
   max-width: 100%;
-  padding: 1.44em 2.11em;
-  border-radius: 14px;
+  padding: 0.875em 2em;
+  border-radius: 32px;
   border: 2px solid #e7e7e7;
   font-size: 18px;
 }
@@ -106,6 +162,14 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
 .button_white {
   background-color: white;
   border-color: #e7e7e7;
+}
+
+.button_orange {
+  background-color: #FF553E;
+  border-color: #FF553E;
+}
+.button_orange a {
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */
